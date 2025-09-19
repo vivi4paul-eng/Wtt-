@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTT-Registration Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="WTT.png" type="image/x-icon">
+
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key" value="cba5b16f-6e90-4bcd-b829-2111bab451ff">
+        <img src="WTT.png" alt="" width="190px">
+        <div class="name"> 
+            <h3>FullName:</h3>
+            <input type="name" name="name" placeholder="Input Full name here">
+        </div>
+        <div class="email">
+            <h3>Email Address:</h3>
+            <input type="text" name="Email" placeholder="Input Your Email Address here">
+        </div>
+        <div class="phone">
+            <h3>Phone-Number</h3>
+            <input type="text" name="Phone-Number" placeholder="Should be on Whatsapp">
+        </div>
+        <div class="div">
+            <div class="one">
+                <h3> Gender</h3>
+            <input type="checkbox" name="Male" id="checkbox"> <p>Male</p><br>
+            <input type="checkbox" name="Female" id="checkbox"> <p>Female</p>
+            </div>
+            <div class="two">
+            <h3> Class</h3>
+            <input type="checkbox" name="SS1" id="checkbox"> <p>SSS.1</p><br>
+            <input type="checkbox" name="SS2" id="checkbox"> <p>SSS.2</p> <br>
+            <input type="checkbox" name="SS3" id="checkbox"> <p>SSS.3</p>
+            </div>
+            <div class="three">
+                <h3>Payment Options</h3>
+                <select name="Payment Options" id="Payment">
+                <br>
+                <option value="Monthly"> Monthly </option>
+                <option value="Weekly"> Weekly</option>
+            </select>
+            <h3><a href="Payment details.html">Payment Details</a></h3>
+            </div>
+        </div>
+        <button type="submit"> Submit</button>
+    </form>
+</body>
+</html>
